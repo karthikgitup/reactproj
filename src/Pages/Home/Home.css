@@ -1,0 +1,44 @@
+
+  html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: lightblue;
+}
+.home{
+    position: relative;
+    height: 90vh;
+ 
+}
+.banner{
+    width:100%;
+    height: 100%;
+   
+}
+.banner-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner-container img{
+    width: 100%;
+    height: 100%;
+    
+}
+.banner-arrow{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    position: absolute;
+    top: 35%;
+}
+.banner-arrow div{
+    font-size: 46px;
+    padding: 40px;
+
+    
+    
+}
